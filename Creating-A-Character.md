@@ -22,6 +22,7 @@ First, we'll define what's the actual character table. Since Nullex Voyd is a ki
 Now, we'll define every ability.
 
 Starting with the slash:
+
 ![2AbilityDef](assets/creatingacharacter/2AbilityDef.png)
 
 The slash is the easiest out of them all as it's already pre-written.

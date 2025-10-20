@@ -1,5 +1,7 @@
 #### Quick note
+
 All of the classes are in `ReplicatedStorage/Classes` (e.g. `Character` & `Ability`). This is useful for type checking and for getting the default settings for each class.
+
 It's also important to use `Class:GetDefaultClassSettings()` to make sure that everything necessary is there and that nothing will break (almost) every time the engine is updated.
 
 For assets (that aren't bound to the character's model) used in abilities, define them in `Character.Config` to be able to change them in skin definitions.
@@ -18,6 +20,7 @@ First, we'll define what's the actual character table. Since Nullex Voyd is a ki
 * Set its `Config` variables (read them in the class for further info)
 
 Now, we'll define every ability.
+
 Starting with the slash:
 ![2AbilityDef](assets/creatingacharacter/2AbilityDef.png)
 

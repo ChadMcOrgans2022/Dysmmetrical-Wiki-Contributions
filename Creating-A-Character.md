@@ -15,6 +15,7 @@ The character's model that'll be applied to the player will go in `ServerStorage
 
 ### Writing the script
 First, we'll define what's the actual character table. Since Nullex Voyd is a killer, I'll do like so:
+
 ![1CharDef](assets/creatingacharacter/1CharDef.png)
 * Get the default settings for the set role of the character
 * Set its `Config` variables (read them in the class for further info)
@@ -32,9 +33,10 @@ In the Slash config, you can also set `Slash.Damage`.
 
 After that, you can define any abilities you want. They'll be set in the order that you add them to the final table.
 As an example I'll use the "Callback Ping" ability for Nullex:
+
 ![3CPDef](assets/creatingacharacter/3CPDef.png)
-* I create any constants that don't depend on being unique per player.
-* I define the ability basing off of the default settings.
+* We create any constants that don't depend on being unique per player.
+* We define the ability basing off of the default settings.
     * Take into account that `Ability.InputName` takes the name of one of the ability input keys defined in `StarterPlayer/StarterPlayerScripts/InputManager:Init()`.
 
 After defining the Config, we move on to making the ability's behaviour.

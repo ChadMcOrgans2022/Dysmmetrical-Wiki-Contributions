@@ -18,6 +18,7 @@ First, we'll define what's the actual character table. Since Nullex Voyd is a ki
 ![1CharDef](assets/creatingacharacter/1CharDef.png)
 * Get the default settings for the set role of the character
 * Set its `Config` variables (read them in the class for further info)
+* For variables that affect how the gameplay plays out with the character, GameplayConfig is available. Set all of the variables that affect gameplay in abilities here to make sure not to change them in skins.
 
 Now, we'll define every ability.
 
@@ -32,7 +33,7 @@ In the Slash config, you can also set `Slash.Damage`.
 After that, you can define any abilities you want. They'll be set in the order that you add them to the final table.
 As an example I'll use the "Callback Ping" ability for Nullex:
 ![3CPDef](assets/creatingacharacter/3CPDef.png)
-* I create any constants that don't depend on being unique per player
+* I create any constants that don't depend on being unique per player.
 * I define the ability basing off of the default settings.
     * Take into account that `Ability.InputName` takes the name of one of the ability input keys defined in `StarterPlayer/StarterPlayerScripts/InputManager:Init()`.
 

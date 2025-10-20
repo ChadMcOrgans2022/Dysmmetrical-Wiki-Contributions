@@ -1,4 +1,4 @@
-#### Quick note
+### Quick note
 
 All of the classes are in `ReplicatedStorage/Classes` (e.g. `Character` & `Ability`). This is useful for type checking and for getting the default settings for each class.
 
@@ -6,14 +6,14 @@ It's also important to use `Class:GetDefaultClassSettings()` to make sure that e
 
 For assets (that aren't bound to the character's model) used in abilities, define them in `Character.Config` to be able to change them in skin definitions.
 
-#### Making the script
+### Making the script
 Create a new script in `ReplicatedStorage/Characters/(CHARACTERTYPE)` with your character's name as the script name. It should be formatted without spaces and preferably case-sensitive.
 
 For example, I have a character called "Nullex Voyd", so the script will be called `NullexVoyd.luau` in Git.
 
 The character's model that'll be applied to the player will go in `ServerStorage/Assets/Characters/(CHARACTERTYPE)` with the same name as the script. If it isn't named the same it won't work.
 
-#### Writing the script
+### Writing the script
 First, we'll define what's the actual character table. Since Nullex Voyd is a killer, I'll do like so:
 ![1CharDef](assets/creatingacharacter/1CharDef.png)
 * Get the default settings for the set role of the character
@@ -49,5 +49,5 @@ We do this with every ability we want the character to have and, at the end, we 
 
 ![5CharReturn](assets/creatingacharacter/5CharReturn.png)
 
-#### Extra attributes
+### Extra attributes
 If the character is supposed to be only for developers, add the `Dev` tag to the script in Studio.

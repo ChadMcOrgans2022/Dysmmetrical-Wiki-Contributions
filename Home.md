@@ -4,6 +4,9 @@ Welcome to the Dysymmetrical wiki!
 ### Q: "What `X.project.json` file to I use in the Rojo sync server?"
 A: I always use `default.project.json`. I've never tried `pack.default.json` but I'm sure it works as well.
 
+### Q: "It says that Rojo tries to find a `$path` called 'Packages' and it doesn't serve!"
+A: Run `wally install` in the terminal to update your packages.
+
 ### Q: "Do I mandatorily *definetly* have to install and use Rojo to use this engine?"
 A: Not really, but it's useful to collaborate with people, to keep To-Do's to date in an easier way, and to update the engine periodically.
 

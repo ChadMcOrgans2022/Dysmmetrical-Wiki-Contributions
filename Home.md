@@ -2,7 +2,7 @@ Welcome to the Dysymmetrical wiki!
 
 # Frequently Asked Questions
 ### Q: "What `X.project.json` file to I use in the Rojo sync server?"
-A: I always use `default.project.json`. I've never tried `pack.default.json` but I'm sure it works as well.
+A: It's highly recommended to use `default.project.json` since `pack.project.json` has a different file hierarchy for GitHub Actions and you would have to create most folders manually.
 
 ### Q: "It says that Rojo tries to find a `$path` called 'Packages' and it doesn't serve!"
 A: Run `wally install` in the terminal to update your packages.

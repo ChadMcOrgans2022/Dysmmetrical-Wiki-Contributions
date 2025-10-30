@@ -4,7 +4,7 @@ Read [Quick Note](https://github.com/CodeBotsStudio/Dysymmetrical/wiki/0.-Gettin
 
 Also know that I'll refer to **Pull Requests** as **PRs**.
 
-## Creating the PR's repository
+### Creating the PR's repository
 
 First, go to [Dysymmetrical's repository](https://github.com/CodeBotsStudio/Dysymmetrical) and click the button labeled `Fork` at the top right.
 
